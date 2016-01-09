@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Transporter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Company Name</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_splash">Transporter</string>
+</resources>

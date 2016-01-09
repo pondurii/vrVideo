@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/ponduri/Dropbox/samskrut_android_2015/vrVideo/rajawali/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="enum" name="antiAliasingType">
+        <enum name="multisample" value="1"/>
+        <enum name="coverage" value="2"/>
+    </attr>
+    <attr format="integer" name="bitsAlpha"/>
+    <attr format="integer" name="bitsBlue"/>
+    <attr format="integer" name="bitsDepth"/>
+    <attr format="integer" name="bitsGreen"/>
+    <attr format="integer" name="bitsRed"/>
+    <attr format="float" name="frameRate"/>
+    <attr format="boolean" name="isTransparent"/>
+    <attr format="integer" name="multiSampleCount"/>
+    <attr format="enum" name="renderMode">
+        <enum name="RENDER_WHEN_DIRTY" value="0"/>
+        <enum name="RENDER_CONTINUOUS" value="1"/>
+    </attr>
+    <declare-styleable name="RajawaliSurfaceView"><attr name="frameRate"/><attr name="renderMode"/><attr name="antiAliasingType"/><attr name="isTransparent"/><attr name="bitsRed"/><attr name="bitsGreen"/><attr name="bitsBlue"/><attr name="bitsAlpha"/><attr name="bitsDepth"/><attr name="multiSampleCount"/></declare-styleable>
+    <declare-styleable name="RajawaliTextureView"><attr name="frameRate"/><attr name="renderMode"/><attr name="antiAliasingType"/><attr name="bitsRed"/><attr name="bitsGreen"/><attr name="bitsBlue"/><attr name="bitsAlpha"/><attr name="bitsDepth"/><attr name="multiSampleCount"/></declare-styleable>
+</resources>
